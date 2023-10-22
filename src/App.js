@@ -20,7 +20,7 @@ function App() {
         <ScrollToTop />
         <Nav />
         <Routes>
-          <Route path="/Portfolio_React" element={<Title />} />
+          <Route path="/resume-portfolio" element={<Title />} />
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<Project />} />
